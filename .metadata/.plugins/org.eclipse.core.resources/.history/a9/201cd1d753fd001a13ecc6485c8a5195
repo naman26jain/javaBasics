@@ -1,0 +1,12 @@
+package package_first;
+public class salaryCounter {
+
+	public double compute(String name, double basePay,int leaves) {
+		double salary;
+		salary=basePay-(basePay*leaves);
+		System.out.print("Amount to be received by "+ name+" is: ");
+		return salary;
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class trial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		//System.out.println("Enter a number to divide: ");
+		//int num=in.nextInt();
+		int[] array=new int[3];
+		try {
+			System.out.println(array[2]);
+		}
+		catch(Exception e){
+			System.out.println("error "+ e);
+			System.out.println();
+			
+	}
+		System.out.println("this is a trial for exception handling");
+		System.out.println("this is a trial for exception handling");
+		System.out.println("this is a trial for exception handling");
+		System.out.println("this is a trial for exception handling");
+		System.out.println("this is a trial for exception handling");
+		System.out.println("this is a trial for exception handling");
+		in.close();
+
+	}
+
+}

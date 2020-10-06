@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class trial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter a number to divide: ");
+		int num=in.nextInt();
+		try {
+			System.out.println(10/num);
+		}
+		catch(ArithmeticException e){
+			System.out.println("error "+ e);
+			
+	}
+		System.out.println("this is a trial for exception handling");
+		in.close();
+
+	}
+
+}
